@@ -1,0 +1,120 @@
+=====================================
+Basic HTML Guide for Absolute Beginners
+=====================================
+
+1. What is HTML?
+-----------------
+HTML stands for HyperText Markup Language. It is used to create and structure content on the web. HTML uses "tags" to define elements.
+
+A very basic HTML document looks like this:
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My First Web Page</title>
+  </head>
+  <body>
+    <!-- Content goes here -->
+  </body>
+</html>
+
+
+2. Displaying Text
+-------------------
+Use heading tags <h1> to <h6> for headings, and <p> for paragraphs.
+
+Example:
+
+<h1>Main Heading</h1>
+<h2>Subheading</h2>
+<p>This is a paragraph of text.</p>
+
+
+3. Adding Line Breaks and Horizontal Lines
+------------------------------------------
+Use <br> to break lines, and <hr> to draw a horizontal line.
+
+<p>This is line one.<br>This is line two.</p>
+<hr>
+
+
+4. Formatting Text
+-------------------
+You can make text bold, italic, or underlined:
+
+<p><b>Bold</b> <i>Italic</i> <u>Underline</u></p>
+
+
+5. Creating Buttons
+--------------------
+Buttons are created using the <button> tag.
+
+Example:
+
+<button>Click Me</button>
+
+You can add actions to them with JavaScript (see below).
+
+
+6. Adding Links
+----------------
+Use the <a> tag to create hyperlinks:
+
+<a href="https://www.google.com">Go to Google</a>
+
+
+7. Adding Images
+-----------------
+Images are added with the <img> tag. Include the "src" (source) and "alt" (alternative text).
+
+<img src="image.jpg" alt="A description of the image" width="300">
+
+
+8. Adding JavaScript Functions
+-------------------------------
+JavaScript lets you add interactivity to your page.
+
+Example: a button that shows a message:
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Button Example</title>
+    <script>
+      function sayHello() {
+        alert("Hello, world!");
+      }
+    </script>
+  </head>
+  <body>
+    <button onclick="sayHello()">Click Me!</button>
+  </body>
+</html>
+
+
+9. Input Fields and Forms
+--------------------------
+Forms let users enter data.
+
+Example:
+
+<form>
+  Name: <input type="text" name="username"><br>
+  <button type="submit">Submit</button>
+</form>
+
+
+10. Saving and Viewing Your HTML File
+--------------------------------------
+1. Open Notepad or any text editor.
+2. Paste your HTML code.
+3. Save the file as: yourfilename.html
+4. Double-click the file to open it in your web browser.
+
+NOTE: You must use .html extension (NOT .txt) to make it viewable in a browser!
+
+--------------------------------------
+End of Basic HTML Guide
+--------------------------------------
+
+You can now start experimenting by combining these elements!
